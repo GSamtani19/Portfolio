@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Section */
+.header {
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.intro-text h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.intro-text p {
+    font-size: 1.2rem;
+}
+
+/* Grid Container for Sections */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.grid-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.grid-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.grid-item p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Small Grid Container */
+.small-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.small-grid-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.small-grid-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.small-grid-item h2 {
+    font-size: 1.3rem;
+}
+
+/* Brand Section */
+.brand-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.brand-section img {
+    width: 150px;
+}
+
+/* Full Width Content Sections */
+.full-width {
+    padding: 40px;
+    background-color: #fff;
+    border-top: 2px solid #ccc;
+}
+
+.full-width h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.full-width p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
